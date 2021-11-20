@@ -1,1 +1,9 @@
-
+@font-face {
+	font-family: "dana";
+	font-style: normal;
+	font-weight: 500;
+	src: url('/Fonts/dana-regular.eot');
+	src: url('/Fonts/dana-regular.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('/Fonts/dana-regular.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('/Fonts/dana-regular.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
