@@ -1,6 +1,6 @@
 body {
     background-color: black;
-	font-family: "dana";
+	  font-family: "dana";
     font-style: normal;
     
 
@@ -19,18 +19,18 @@ p {
     font-family: "dana";
     display: inline-block;
     border-radius: 8px;
-    background-color: #f4511e;
+    background-color: rgb(15, 15, 15);
     border: none;
     color: #FFFFFF;
     text-align: center;
-    font-size: 20px;
+    font-size: 15px;
     padding: 6px;
-    width: 160px;
+    width: 110px;
     transition: all 0.5s;
     cursor: pointer;
     margin: 5px;
     position: absolute;
-    right: 50%;
+    right: 45%;
     top: 17%;
 
   }
@@ -70,19 +70,19 @@ p {
     font-family: "dana";
     display: inline-block;
     border-radius: 8px;
-    background-color:dimgrey;
+    background-color:rgb(15, 15, 15);
     border: none;
     color: #FFFFFF;
     text-align: center;
-    font-size: 20px;
+    font-size: 15px;
     padding: 6px;
-    width: 160px;
+    width: 110px;
     transition: all 0.5s;
     cursor: pointer;
     margin: 5px;
     position: absolute;
-    right: 36%;
-    top: 17%;
+    right: 45%;
+    top: 27%;
 
 
   }
