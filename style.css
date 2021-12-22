@@ -1,6 +1,6 @@
 body {
-    background-color: black;
-	  font-family: "dana";
+    background-color: rgb(24, 24, 24);
+	  /* font-family: "dana"; */
     font-style: normal;
     
 
@@ -9,108 +9,31 @@ body {
 p {
     color: white;
     text-align: center;
-    font-size:50;
-    letter-spacing: -4px;
+    font-size:30;
+    position: relative;
+    /* letter-spacing: -4px; */
     
 }
 
-
-.button {
-    font-family: "dana";
-    display: inline-block;
-    border-radius: 8px;
-    background-color: rgb(15, 15, 15);
-    border: none;
-    color: #FFFFFF;
-    text-align: center;
-    font-size: 15px;
-    padding: 6px;
-    width: 110px;
-    transition: all 0.5s;
-    cursor: pointer;
-    margin: 5px;
-    position: absolute;
-    right: 45%;
-    top: 17%;
-
-  }
   
-  .button span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-  }
-  
-  .button span:after {
-    content: '\00bb';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.5s;
-  }
-  
-  .button:hover span {
-    padding-right: 25px;
-  }
-  
-  .button:hover span:after {
-    opacity: 1;
-    right: 0;
-  }
-
-
-
-
-
-
-  
-.payam {
-    font-family: "dana";
-    display: inline-block;
+  .payam {
+    /* font-family: "dana"; */
+    /* display: inline-block; */
     border-radius: 8px;
     background-color:rgb(15, 15, 15);
     border: none;
-    color: #FFFFFF;
-    text-align: center;
-    font-size: 15px;
-    padding: 6px;
-    width: 110px;
-    transition: all 0.5s;
-    cursor: pointer;
-    margin: 5px;
-    position: absolute;
-    right: 45%;
-    top: 27%;
+    color: #ffffff;
+    font-size: 13px;
+    padding: 8px;
+    display:block;
+    margin: auto;
+    
+    
 
 
   }
   
-  .payam span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-  }
   
-  .payam span:after {
-    content: '\00bb';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.5s;
-  }
-  
-  .payam:hover span {
-    padding-right: 25px;
-  }
-  
-  .payam:hover span:after {
-    opacity: 1;
-    right: 0;
-  }
   
 
 
