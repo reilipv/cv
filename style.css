@@ -1,40 +1,51 @@
-body {
+body{
     background-color: rgb(24, 24, 24);
-	  /* font-family: "dana"; */
-    font-style: normal;
-    
-
-
+    font-family: 'Montserrat Alternates', sans-serif;
 }
-p {
-    color: white;
-    text-align: center;
-    font-size:30;
-    position: relative;
-    /* letter-spacing: -4px; */
-    
-}
-
-  
-  .payam {
-    /* font-family: "dana"; */
-    /* display: inline-block; */
-    border-radius: 8px;
-    background-color:rgb(15, 15, 15);
-    border: none;
-    color: #ffffff;
-    font-size: 13px;
-    padding: 8px;
-    display:block;
+.contaner{
+    color: rgb(255, 255, 255);
+    width: 500px;
+    height: 430px;
+    background-color: rgb(36, 36, 36);
     margin: auto;
+    margin-top: 60px;
+    box-sizing: border-box;
+    box-shadow: 0 0 20px #0000;
+    border-radius: 25px;
+}
+.profile{
+    width: 200px;
+    height: 200px;
+    border: 0 solid black;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0   1px rgb(18, 65, 153);
+}
+.name{
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-size: 25px;
+    border-bottom: 2px solid rgb(18, 65, 153);
+    width: 370px;
+    font-weight: 400;
+    margin-top: 20px;
     
+ 
+}
+.desc{
+    text-align: center;
+    opacity: 50%;
+    margin-top: 10px;
     
-
-
-  }
-  
-  
-  
-
-
-  
+}
+.imgg{
+    text-align: center;
+    background-color: rgb(51, 51, 51);
+    margin-top: 20px;
+}
+.imgg img{
+    margin: 3px;
+}
